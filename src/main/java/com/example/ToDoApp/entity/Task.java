@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 //Database details
 @Entity
-@Table(name = "todos")
+@Table(name = "tasks")
 public class Task {
 
     @Id
